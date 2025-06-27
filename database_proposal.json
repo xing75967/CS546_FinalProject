@@ -35,10 +35,7 @@
 
 
 
-
-
 // Tools collection
-
 
 {
   "_id": ObjectId("6859ed5cec2d4a73579a0b02"),
@@ -46,11 +43,11 @@
   "official_url": "https://group2.ai.com",
   "url_verified": true,
   "description": "AI chat robot by group2 AI team at Stevens.",
-  "tech_stack": {
-    "base_model": "GPT-4",
-    "hardware_requirements": ["NVIDIA A100", "Cloud-based"],
-    "supported_formats": ["text", "markdown"]
-  },
+
+  "base_model": "GPT-4",
+  "hardware_requirements": ["NVIDIA A100", "Cloud-based"],
+  "supported_formats": ["text", "markdown"],
+
   "tool_approved": true,
   "category": "Text Generation", // Image processing, Coding assitance
   "subcategories": ["Multilingual", "Chatbot", "Education"],
@@ -60,12 +57,11 @@
     "usability": 4.6,
     "value": 4.5,
     "num_ratings": 1050
-  },
-  "statistics": {
-    "views": 20256,
-    "bookmarks": 820,
-    "submission_date": "2025-06-26"
-  },
+    },
+
+  "views": 20256,
+  "bookmarks": 820,
+  "submission_date": "2025-06-26" ,
   "submitted_by": ObjectId("user_id")
 }
 
