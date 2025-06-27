@@ -1,0 +1,92 @@
+// This is the example collections of our database proposal.
+// Users collection
+
+{
+  "_id": ObjectId("6849ed5cec2d4a73574a0b01"),
+  "email": "group2.cs546@stevens.com",
+  "auth_provider": "stevens",   // e.g., "google", "github", 'email'
+  "password": "$2b$10$4jfgadf9u/hashedpassword", 
+  "first_name": "Snowman",
+  "last_name": "Liu",
+  "birthday":"1999-01-01",
+  "avatar_url": "https://finalproject_grp2_cs546_MSDS_Stevens.com",
+  "phone": "+1-999-123-4567",
+  "city": "Hoboken",
+  "state":"NJ",
+  "country": "USA",
+  "role": "user",  // or "admin"
+  "created_at": "2025-06-26",
+
+  "bookmarks": [
+    {
+      "folder_name": "Tools_to_Try",
+      "tool_ids": [ObjectId("tool_id1"), ObjectId("tool_id2")]
+    },
+    {
+      "folder_name": "Team_Picks",
+      "tool_ids": [ObjectId("tool_id3")]
+    }
+  ],
+
+  "two_factor_enabled": true,         
+  "last_login": "2025-06-26"
+}
+
+
+
+
+
+
+// Tools collection
+
+
+{
+  "_id": ObjectId("6859ed5cec2d4a73579a0b02"),
+  "name": "ChatBot",
+  "official_url": "https://group2.ai.com",
+  "url_verified": true,
+  "description": "AI chat robot by group2 AI team at Stevens.",
+  "tech_stack": {
+    "base_model": "GPT-4",
+    "hardware_requirements": ["NVIDIA A100", "Cloud-based"],
+    "supported_formats": ["text", "markdown"]
+  },
+  "tool_approved": true,
+  "category": "Text Generation", // Image processing, Coding assitance
+  "subcategories": ["Multilingual", "Chatbot", "Education"],
+
+  "ratings": {
+    "functionality": 4.8,
+    "usability": 4.6,
+    "value": 4.5,
+    "num_ratings": 1050
+  },
+  "statistics": {
+    "views": 20256,
+    "bookmarks": 820,
+    "submission_date": "2025-06-26"
+  },
+  "submitted_by": ObjectId("user_id")
+}
+
+// Reviews collection:
+
+{
+  "_id": ObjectId("6869re5cec2d4a73579a0b03"),
+  "user_id": ObjectId("user_id"),
+  "tool_id": ObjectId("tool_id"),
+  "title": "Review Title for multilingual chatbot",
+  "content": "It handled English and Chinese perfectly. Very clean.",
+  "ratings": {
+    "functionality": 5,
+    "usability": 5,
+    "value": 1
+  },
+  "created_at": "2025-06-27",
+  "comments": [{
+    "comment_id": ObjectId("1230subcomment19under9102a09comment321"),
+    "user_id": ObjectId("comment_user_id"),
+    "comment_text":"Very good comment! Absolutely agreed!"
+  }]
+}
+
