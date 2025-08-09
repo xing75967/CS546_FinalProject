@@ -1,0 +1,9 @@
+
+<main>
+  <h2>AI Tools</h2>
+  <ul>
+    {{#each tools}}
+      <li><a href="/tools/{{this._id}}">{{this.name}}</a> - Category: {{this.category}}</li>
+    {{/each}}
+  </ul>
+</main>

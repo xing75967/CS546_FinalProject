@@ -1,0 +1,15 @@
+
+<main>
+  <section class="hero">
+    <h1>Discover Truly Trustworthy AI Tools</h1>
+  </section>
+
+  <section class="popular-tools">
+    <h2>Popular AI Tools</h2>
+    <ul>
+      {{#each popularTools}}
+        <li><a href="/tools/{{this._id}}">{{this.name}}</a> - Rating: {{this.ratings.functionality}}</li>
+      {{/each}}
+    </ul>
+  </section>
+</main>
