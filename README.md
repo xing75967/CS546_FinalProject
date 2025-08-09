@@ -1,6 +1,6 @@
 # AI Service Aggregator
 
-This is a Node.js + Express + MongoDB based AI too aggregator platform，users can register and login, browsing AI toolss, comments and save etc.
+This is a Node.js + Express + MongoDB based AI tools aggregator platform，users can register and login, browsing AI tools, comments and save etc.
 
 ## Folder structure
 
