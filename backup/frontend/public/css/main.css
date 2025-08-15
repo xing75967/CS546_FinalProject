@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+}
+
+.tool-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.jumbotron {
+    border: 1px solid #dee2e6;
+}

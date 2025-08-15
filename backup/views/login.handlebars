@@ -1,0 +1,22 @@
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <h1 class="text-center">Welcome Back!</h1>
+        <p class="text-center text-muted">Login to continue your AI tool exploration journey.</p>
+        <form action="/users/login" method="POST" id="login-form" class="mt-4">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">Login</button>
+            </div>
+        </form>
+        <p class="text-center mt-3">
+            Don't have an account yet? <a href="/users/register">Register now</a>
+        </p>
+    </div>
+</div>
