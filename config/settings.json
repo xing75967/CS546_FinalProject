@@ -1,9 +1,0 @@
-{
-  "mongoConfig": {
-    "serverUrl": "mongodb+srv://isa:36251487@cluster0.czbhtz7.mongodb.net/AI_Aggregator_DB?retryWrites=true&w=majority&appName=Cluster0",
-    "database": "AI_Aggregator_DB"
-  },
-    "adminEmail": "admin@gmail.com"
-}
-
-
